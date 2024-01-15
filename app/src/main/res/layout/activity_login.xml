@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Username EditText -->
+
+    <!-- Password EditText -->
+
+    <!-- Login Button -->
+
+    <!--    <EditText-->
+<!--        android:id="@+id/editTextPassword"-->
+<!--        android:layout_width="match_parent"-->
+<!--        -->
+<!--        android:layout_height="50dp"-->
+<!--        android:hint="Password"-->
+<!--        android:paddingLeft="7dp"-->
+<!--        android:background="@drawable/edt_back"-->
+<!--        android:textColor="@color/white"-->
+
+
+<!--        android:textColorHint="#2E2C2C"-->
+<!--        -->
+<!--        android:inputType="textPassword"-->
+<!--        tools:layout_editor_absoluteX="40dp"-->
+<!--        tools:layout_editor_absoluteY="210dp" />-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textFontWeight="700"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="What's your email?"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/edt_back"
+        android:inputType="text"
+
+
+        android:paddingLeft="7dp"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/white"
+        android:textColorHint="#2E2C2C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="468dp"
+        android:backgroundTint="#6D716D"
+        android:text="Next"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="110dp"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</LinearLayout>
